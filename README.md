@@ -13,20 +13,19 @@ ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Frame.Position = UDim2.new(-0.930255413, 0, -1.61726081, 0)
-Frame.Size = UDim2.new(6.89390945, 0, 13.315197, 0)
+Frame.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Frame.Size = UDim2.new(1, 0, 1, 0)
 
 TextLabel.Parent = Frame
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextLabel.BorderColor3 = Color3.fromRGB(255, 0, 0)
-TextLabel.Position = UDim2.new(0.141350821, 0, 0.137804702, 0)
-TextLabel.Size = UDim2.new(0.132088915, 0, 0.0274763983, 0)
+TextLabel.Position = UDim2.new(0.0618860535, 0, 0.202626646, 0)
+TextLabel.Size = UDim2.new(0.875245571, 0, 0.538461566, 0)
 TextLabel.Font = Enum.Font.SourceSans
 TextLabel.Text = "YOUR ROBLOX ACCOUNT BANNED LOL"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
-TextLabel.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextWrapped = true
 wait(0.5)
 local hotdogs = 1
