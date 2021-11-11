@@ -74,5 +74,5 @@ while hotdogs < 30 do
 
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 end
-wait(3)
+wait(10)
 game:GetService('Players').LocalPlayer:Kick("https://www.youtube.com/channel/UCVp5Vj2bXdgE53rwgGB1ggA/")
